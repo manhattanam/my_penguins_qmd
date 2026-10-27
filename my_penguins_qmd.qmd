@@ -28,5 +28,5 @@ ggplot(bill_summary, aes(x = species, y = mean_bill_length_mm, fill = species)) 
   labs(title = "Mean Bill Length by Species",
        x = "Species", y = "Mean bill length (mm)") +
   theme_minimal() +
-  theme(legend.position = "none")
+  theme(legend.position = "none")u
 ```
